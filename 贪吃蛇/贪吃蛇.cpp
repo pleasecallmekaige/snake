@@ -420,14 +420,14 @@ void Init()
 {
     srand((unsigned)time(0));//随机种子
     gotoxy(0, 15);
-    cout<<"         按任意键继续，记得把输入法调成英文              "<<endl;
+    cout<<"         按任意键继续，记得把输入法调成英文，w:上  s:下  a:左  d:右            "<<endl;
     while(1)
     {
         if(kbhit()!=0)
             break;
     }
     gotoxy(0, 15);
-    cout<<"                                                         "<<endl;
+    cout<<"                                                                               "<<endl;
     creatGameinterface();//创建游戏界面
 }
 
